@@ -1,0 +1,4 @@
+build/
+*.userdb/
+*.txt
+*.bin
