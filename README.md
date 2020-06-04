@@ -6,6 +6,15 @@ Config folder path: `~/Library/Rime`
 
 Soft link those files to config folder.
 
+```bash
+cd ~/Library/Rime
+git clone git@github.com:towry/rime-config.git
+ln -s rime-config/default.custom.yaml
+ln -s rime-config/squirrel.custom.yaml
+```
+
+Reload the rime config.
+
 After install the Rime, Use `plum` package manage to
 install the input scheme. https://github.com/rime/plum
 
